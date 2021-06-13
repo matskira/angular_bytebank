@@ -1,6 +1,5 @@
 # Bytebank
 
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <br />
@@ -35,10 +34,7 @@
       </ul>
     </li>
     <li><a href="#uso">Uso da aplicação</a></li>
-    <li><a href="#contribuicao">Contribuição</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contato">Contato</a></li>
-    <li><a href="#referencias">Referências</a></li>
   </ol>
 </details>
 
