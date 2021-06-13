@@ -1,27 +1,122 @@
 # Bytebank
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## Development server
+<br />
+<p align="center">
+  <a href="">
+    <img src="img/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+  <h3 align="center">Projeto Bytebank</h3>
 
-## Code scaffolding
+  <p align="center">
+    Projeto criado para estudo incial do framework Angular
+    <br />
+  </p>
+</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<!-- TABELA DE CONTEÚDO -->
+<details open="open">
+  <summary>Tabela de Conteúdo</summary>
+  <ol>
+    <li>
+      <a href="#sobre-o-projeto">Sobre o projeto</a>
+      <ul>
+        <li><a href="#construcao">Construído com</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#comecando">Começando</a>
+      <ul>
+        <li><a href="#prerequisitos">Pré-requisitos</a></li>
+        <li><a href="#instalacao">Instalação</a></li>
+      </ul>
+    </li>
+    <li><a href="#uso">Uso da aplicação</a></li>
+    <li><a href="#contribuicao">Contribuição</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contato">Contato</a></li>
+    <li><a href="#referencias">Referências</a></li>
+  </ol>
+</details>
 
-## Build
+<!-- SOBRE O PROJETO -->
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Sobre o projeto
 
-## Running unit tests
+![Imagem do projeto](/img/img_sistema.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+O projeto bytebank foi realizado com o intuito de ser um sistema base para entendimento do framework front-end Angular, utilizando componentes, módulos e outros padrões do framework.
 
-## Running end-to-end tests
+Se trata de um sistema simples de transferência, onde atualmente temos apenas a funcionalidade de realizar nova transferencia e de visualizar o extrato. Mantendo o cenário de SPA.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Constrúido com
 
-## Further help
+Framework e ferramenta utilizadas neste projeto:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- [Angular v10.1.6](https://angular.io/docs)
+
+- [Json-server](https://www.npmjs.com/package/json-server)
+
+## Começando
+
+Para iniciar nosso projeto é preciso ter o Angular v10.1.6 em sua máquina. E em sequência podemos dar ínicio ao projeto.
+
+### Pré-requisitos
+
+- npm
+
+```sh
+npm install npm@latest -g
+```
+
+- Angular 10.1.6
+
+```sh
+npm install -g @angular/cli@10.1.6.
+```
+
+### Instalação
+
+1. Clone o repositório em alguma pasta em sua workspace
+
+2. Ative seu terminal apontado para esse determinado diretório
+
+3. Build a aplicação, através do terminal
+
+```sh
+ng build
+```
+
+4. Inicie o servidor
+
+```sh
+ng serve -open
+```
+
+## Uso da aplicação
+
+Em nosso projeto iniciamos com o componente de nova transferência, onde colocamos um valor e um destino para transferência:
+
+![Imagem do projeto](/img/Screenshot_6.png)
+
+Após efetuar a transferência iremos chamar o componente de extrato, que contém o nosso histórico de transferência com a adição do timestamp.
+
+![Imagem do projeto](/img/img_sistema.png)
+
+## Contact
+
+Matheus Poda - matskira14@gmail.com
+
+Link do projeto: https://github.com/matskira/angular_bytebank
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/matheus-poda-44663b199/
+[product-screenshot]: images/screenshot.png
