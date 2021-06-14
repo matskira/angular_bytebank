@@ -23,17 +23,16 @@
     <li>
       <a href="#sobre-o-projeto">Sobre o projeto</a>
       <ul>
-        <li><a href="#construcao">Construído com</a></li>
+        <li><a href="#construido-com">Construido com</a></li>
       </ul>
     </li>
     <li>
       <a href="#comecando">Começando</a>
       <ul>
-        <li><a href="#prerequisitos">Pré-requisitos</a></li>
-        <li><a href="#instalacao">Instalação</a></li>
+        <li><a href="#instalacao">Instalacao</a></li>
       </ul>
     </li>
-    <li><a href="#uso">Uso da aplicação</a></li>
+    <li><a href="#uso-da-aplicacao">Uso da aplicacao</a></li>
     <li><a href="#contato">Contato</a></li>
   </ol>
 </details>
@@ -48,7 +47,7 @@ O projeto bytebank foi realizado com o intuito de ser um sistema base para enten
 
 Se trata de um sistema simples de transferência, onde atualmente temos apenas a funcionalidade de realizar nova transferencia e de visualizar o extrato. Mantendo o cenário de SPA.
 
-### Constrúido com
+### Construido com
 
 Framework e ferramenta utilizadas neste projeto:
 
@@ -56,7 +55,7 @@ Framework e ferramenta utilizadas neste projeto:
 
 - [Json-server](https://www.npmjs.com/package/json-server)
 
-## Começando
+## Comecando
 
 Para iniciar nosso projeto é preciso ter o Angular v10.1.6 em sua máquina. E em sequência podemos dar ínicio ao projeto.
 
@@ -102,7 +101,7 @@ Após efetuar a transferência iremos chamar o componente de extrato, que conté
 
 ![Imagem do projeto](/img/img_sistema.png)
 
-## Contact
+## Contato
 
 Matheus Poda - matskira14@gmail.com
 
